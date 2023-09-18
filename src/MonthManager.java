@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MonthManager {
-    FileReader reader = new FileReader();
+    public FileReader reader = new FileReader();
     ArrayList<MonthTransaction> monthT = new ArrayList<>();
     HashMap<Integer, Integer> profitOrders = new HashMap<>();
     HashMap<Integer, Integer> spendOrders = new HashMap<>();

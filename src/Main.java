@@ -17,7 +17,7 @@ public class Main {
                         monthManager.loadFile();
                         break;
                     case (2):
-                        yearManager.YearManager("y.2021.csv");
+                        yearManager.yearLoadFile("y.2021.csv");
                         break;
                     case (3):
                         checker.check();

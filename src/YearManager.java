@@ -7,7 +7,7 @@ public class YearManager {
     public HashMap<Integer, Integer> profitOrders = new HashMap<>();
     public HashMap<Integer, Integer> spendOrders = new HashMap<>();
 
-    public void YearManager(String path) {  // Считываем годовой отчет
+    public void yearLoadFile(String path) {  // Считываем годовой отчет
 
         ArrayList<String> content = reader.readFileContents(path);
 
@@ -72,7 +72,7 @@ public class YearManager {
                 allProfit += transaction.amount;
             }
         }
-        double avg = allProfit / count;
+        double avg = (double) allProfit / count;
         System.out.println("Среднии доходы за год составили: " + avg);
     }
 
