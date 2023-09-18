@@ -27,7 +27,6 @@ public class YearManager {
                 profitOrders.put(yearReport.month, yearReport.amount);
             }
         }
-        System.out.println("Годовой отчет считан!");
     }
 
     void getMonthsAmount() {   //Получаем прибыль по месяцам за год
